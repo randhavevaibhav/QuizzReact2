@@ -29,7 +29,7 @@ function Quiz(props) {
     {
         if(Questions[currentQuestion].answser===optionChosen)
         {
-            alert("correct answer !!");
+           
             setScore(score+1);
         }
         setGameState("finished")
